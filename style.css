@@ -1,0 +1,60 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Outfit:wght@100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap&#039;");
+
+* {
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+}
+.top {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+  height: 56px;
+}
+.top2 {
+  display: flex;
+  flex-direction: row;
+  gap: 48px;
+}
+.fr {
+  display: flex;
+  flex-direction: row;
+  /* width: 100%; */
+  /* text-align: center; */
+  justify-content: space-between;
+}
+.left {
+  display: flex;
+  flex-direction: column;
+  /* align-items: center; */
+  justify-content: center;
+  align-items: center;
+  gap: 12px;
+  width: 300px;
+  margin-left: 350px;
+  margin-top: -150px;
+  
+
+  /* padding-left: 120px;
+    padding-top: 40px; */
+}
+
+/* .left > .left-son {
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  gap: 20px;
+} */
+
+.right {
+  width: 50%;
+  /* display: flex;
+    justify-content: end\; */
+}
+.rr {
+  display: flex;
+  flex-direction: row;
+  gap: 12px;
+}
